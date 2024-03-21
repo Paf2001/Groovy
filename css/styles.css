@@ -10,6 +10,8 @@ body {
     font-weight: 700;
     font-style: normal;
 	
+	 
+	
 }
 
 /* Changing the background colour for the header */
@@ -17,12 +19,13 @@ body {
 header {
 	background-color: #000000;
 	
+	
 }
 
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #FF510C;
+	background-color: #2BADB8;
 	margin-bottom: 150px;
 	/* Adjust the value as needed */
 }
@@ -31,6 +34,7 @@ header {
 
 footer a:hover {
 	opacity: .5;
+	
 }
 
 /* Corporate navbar */
