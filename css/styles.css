@@ -55,11 +55,12 @@ footer a:hover {
 		0 0 .5em white;
 }
 .carousel {
-  margin-top: -150px; /* Adjust this value as needed */
+  margin-top: -150px;
+	margin-bottom: 150px;/* Adjust this value as needed */
 }
 .text-white{
 	color: white;
-	text-shadow: -1px -1px 0 #000,  
+	text-shadow: -2px -1px 0 #000,  
                 1px -1px 0 #000,
                -1px  1px 0 #000,
                 1px  1px 0 #000;
