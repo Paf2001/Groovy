@@ -10,8 +10,6 @@ body {
     font-weight: 700;
     font-style: normal;
 	
-	 
-	
 }
 
 
@@ -65,4 +63,9 @@ footer a:hover {
                -1px  1px 0 #000,
                 1px  1px 0 #000;
 }
+.large-text {
+  font-size: 48px;
+}
  
+             
+           
