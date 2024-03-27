@@ -30,7 +30,8 @@ header {
 	/* Adjust the value as needed */
 }
 .custom-margin-top {
-    margin-top: 150px; /* Adjust the value as needed */
+    margin-top: 150px;
+	margin-bottom: -150PX;/* Adjust the value as needed */
 }
 
 
