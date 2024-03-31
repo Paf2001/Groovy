@@ -16,9 +16,8 @@ body {
 /* Changing the background colour for the header */
 
 header {
-	background-color: #000000;
-	
-	
+	/*background-color: #000000;*/	
+	margin: auto;
 }
 
 
