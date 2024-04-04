@@ -76,6 +76,10 @@ footer a:hover {
 .large-text {
   font-size: 48px;
 }
+.custom-size {
+  width: 200px; /* Set the desired width */
+  height: auto; /* Maintain aspect ratio */
+}
  
              
            
