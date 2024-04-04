@@ -82,6 +82,10 @@ footer a:hover {
   width: 200px; /* Set the desired width */
   height: auto; /* Maintain aspect ratio */
 }
+video {
+    display: block;
+    margin: 0 auto;
+}
 
  
              
