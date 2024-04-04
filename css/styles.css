@@ -6,10 +6,15 @@
 /* Changing the main font and background colour */
 
 body {
-	font-family: "aptly", sans-serif;
-    font-weight: 700;
+	font-family: "rustica", sans-serif;
+    font-weight: 800;
     font-style: normal;
 	
+}
+.otherfont{
+	font-family: "effra-cc", sans-serif;
+    font-weight: 900;
+    font-style: normal;
 }
 
 
