@@ -1,6 +1,7 @@
 /* Importing a Google Font */
 
 @import url("https://use.typekit.net/qmn5zwb.css");
+@import url("https://use.typekit.net/qmn5zwb.css");
 
 
 /* Changing the main font and background colour */
@@ -10,10 +11,11 @@ body {
     font-weight: 800;
     font-style: normal;
 	
+	
 }
-.otherfont{
-	font-family: "effra-cc", sans-serif;
-    font-weight: 900;
+.font{
+    font-family: "effra-cc", sans-serif;
+    font-weight: 400;
     font-style: normal;
 }
 
