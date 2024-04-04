@@ -78,15 +78,16 @@
          <style>
              .custom-section {
               background-color: #FF510C; 
+				 margin: auto;
 
               }
          </style>
 	  <style>
-  .carousel-item img {
-    max-width: 70%; /* Adjust this value to your preference */
-    height: auto; /* Maintain aspect ratio */
-  }
-</style>
+		  .border{
+			  border-radius: 40px;
+		  }
+		  </style>
+	  
      <div class="container-fluid">
       <div class="row">
 		
@@ -95,24 +96,24 @@
     <!-- Start of hero section -->
 		   
 		  
-    <header class="col-12 col-lg-8 col-xl-6 p-0">
+    <header class="col-12 col-lg-8 col-xl-6">
 		
          <!-- Start of carrousel, adapted from https://getbootstrap.com/docs/5.1/components/carousel/ -->
-   <section class="container-fluid p-0 custom-margin-top">
+   <section class="container-fluid p-5 custom-margin-top">
       <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
         
-        <div class="carousel-inner">
-          <div class="carousel-item active">
+        <div class="carousel-inner border">
+          <div class="carousel-item active ">
             <img src="images/teampictures/mihaela.jpeg" class="d-block mx-auto w-100" alt="dancers">
            
           </div>
 			
 			
-			<div class="carousel-item">
+			<div class="carousel-item border">
             <img src="images/teampictures/ralitsa.jpeg" class="d-block mx-auto w-100" alt="mariapicture">
 				
 			</div>
-          <div class="carousel-item">
+          <div class="carousel-item border">
             <img src="images/teampictures/maria.jpeg" class="d-block mx-auto w-100 h-50" alt="mariapicture">
 			  
           </div>
@@ -139,9 +140,15 @@
 		  
     <!-- End of hero section -->
 		
-      
+    <style>
+             .custom-section {
+                 background-color:#FF510C; 
+				 margin:auto;
+				 border-radius: 40px;
+              }
+         </style>
     <!-- The Who we are section -->
-        <section class="col-12 col-lg-6 text-center custom-section">
+        <section class="col-12 col-lg-6 text-center custom-section textcontainer">
           <h2 class="mt-3">Who we are</h2>
          <p class = "fs-5 my-2"> GROOVE was founded by Breda University students Ralitsa Siderova, Maria Shtarbeva, Mihaela Rashkova and Preslav Yanev in 2024. As young entrepreneurs they realized how crucial, but underestimated injury prevention is among young dancers and went on a mission to create a community of ambitious hip-hoppers, to teach them more about their abilities and how to use this knowledge to move forward fearlessly.</p>
 			<p class="fs-5 my-5"> Our company’s name is the slang word Groove, that conveys a sense of enjoying oneself, accompanied by a sense of rhythm or flow. Because we believe that everyone should be free to express themselves through dance, not confined by physical struggles.</p>
@@ -153,7 +160,7 @@
       
    
 
-    <div class="container pt-3 pb-2">
+    <div class="container pt-3 pb-2 custom-section">
       <div class="row justify-content-center">
         <div class="col-12 col-md-10 col-lg-8 col-xl-6 text-center">
           <h2>Our vision</h2>
